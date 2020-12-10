@@ -1,0 +1,11 @@
+{
+    "name": "phpvv/core",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Volodymyr Sarnytskyi",
+            "email": "v00v4n@gmail.com"
+        }
+    ],
+    "require": {}
+}
