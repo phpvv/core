@@ -94,7 +94,7 @@ final class Bootstrap {
 
     public static function initExceptionHandler(): void {
         set_exception_handler(function ($e) {
-            \VV\Exception::show($e);
+            self::showException($e);
         });
     }
 
@@ -108,7 +108,7 @@ final class Bootstrap {
                 if ($error = error_get_last()) {
                     $mesage = self::makePhpErrorMessage($error['type'], $error['message'], $error['file'], $error['line']);
 
-                    \VV\Exception::show(new \VV\Exception\PhpException($mesage, $error['type']));
+                    self::showException(new \VV\Exception\PhpException($mesage, $error['type']));
                 }
 
                 error_reporting(0);
@@ -117,6 +117,14 @@ final class Bootstrap {
         }
 
         $enabled = $enable;
+    }
+
+    public static function showException(\Throwable $e): void {
+        try {
+            Notice::fromException($e)->all();
+        } catch (\Throwable $e) { // !!! redefines $e variable
+        }
+        \VV\Exception::show($e);
     }
 
     private static function makePhpErrorMessage($no, $str, $file, $line): string {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a393fcb183543f6afd330dfb24e754fd",
+    "content-hash": "6e33af4d4f18830fb811dcf2dfa214c7",
     "packages": [
         {
             "name": "phpvv/exception",
