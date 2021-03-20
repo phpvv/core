@@ -1,11 +1,25 @@
 {
     "name": "phpvv/core",
+    "description": "VV Core Bundle",
+    "version": "0.1.0",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Volodymyr Sarnytskyi",
             "email": "v00v4n@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "classmap": ["Bootstrap.php"]
+    },
+    "require": {
+        "php": "^8.0",
+        "phpvv/runtime": "^0.1.0",
+        "phpvv/notice": "^0.1.0",
+        "phpvv/exception": "^0.1.0"
+    },
+    "require-dev": {
+        "jetbrains/phpstorm-attributes": "^1.0"
+    }
 }

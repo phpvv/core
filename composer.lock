@@ -1,0 +1,205 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1a755d0532dba0e0c99b212367c0b7ca",
+    "packages": [
+        {
+            "name": "phpvv/exception",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpvv/exception.git",
+                "reference": "8945bc30c94ee3f2191a5c2b4557750e3bae6a52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpvv/exception/zipball/8945bc30c94ee3f2191a5c2b4557750e3bae6a52",
+                "reference": "8945bc30c94ee3f2191a5c2b4557750e3bae6a52",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "phpvv/runtime": "^0.1.0"
+            },
+            "require-dev": {
+                "jetbrains/phpstorm-attributes": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Exception.php"
+                ],
+                "psr-4": {
+                    "VV\\Exception\\": "Exception/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Volodymyr Sarnytskyi",
+                    "email": "v00v4n@gmail.com"
+                }
+            ],
+            "description": "VV Exception",
+            "support": {
+                "issues": "https://github.com/phpvv/exception/issues",
+                "source": "https://github.com/phpvv/exception/tree/v0.1.0"
+            },
+            "time": "2021-03-20T11:57:09+00:00"
+        },
+        {
+            "name": "phpvv/notice",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpvv/notice.git",
+                "reference": "35996740f2fb841c838db73ad0da6dcbff45919d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpvv/notice/zipball/35996740f2fb841c838db73ad0da6dcbff45919d",
+                "reference": "35996740f2fb841c838db73ad0da6dcbff45919d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "phpvv/exception": "^0.1.0"
+            },
+            "require-dev": {
+                "jetbrains/phpstorm-attributes": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Notice.php"
+                ],
+                "psr-4": {
+                    "VV\\Notice\\": "Notice/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Volodymyr Sarnytskyi",
+                    "email": "v00v4n@gmail.com"
+                }
+            ],
+            "description": "VV Notice Service",
+            "support": {
+                "issues": "https://github.com/phpvv/notice/issues",
+                "source": "https://github.com/phpvv/notice/tree/v0.1.0"
+            },
+            "time": "2021-03-20T12:11:37+00:00"
+        },
+        {
+            "name": "phpvv/runtime",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpvv/runtime.git",
+                "reference": "2fafd3e99dfcab92bd0ccec14a4c2dd1a6d76f77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpvv/runtime/zipball/2fafd3e99dfcab92bd0ccec14a4c2dd1a6d76f77",
+                "reference": "2fafd3e99dfcab92bd0ccec14a4c2dd1a6d76f77",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "jetbrains/phpstorm-attributes": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "const.php",
+                    "func.php"
+                ],
+                "classmap": [
+                    "VV.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Volodymyr Sarnytskyi",
+                    "email": "v00v4n@gmail.com"
+                }
+            ],
+            "description": "VV Runtime",
+            "support": {
+                "issues": "https://github.com/phpvv/runtime/issues",
+                "source": "https://github.com/phpvv/runtime/tree/v0.1.0"
+            },
+            "time": "2021-03-20T11:10:21+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "jetbrains/phpstorm-attributes",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JetBrains/phpstorm-attributes.git",
+                "reference": "a7a83ae5df4dd3c0875484483de19de8edf60a9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JetBrains/phpstorm-attributes/zipball/a7a83ae5df4dd3c0875484483de19de8edf60a9f",
+                "reference": "a7a83ae5df4dd3c0875484483de19de8edf60a9f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JetBrains\\PhpStorm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "JetBrains",
+                    "homepage": "https://www.jetbrains.com"
+                }
+            ],
+            "description": "PhpStorm specific attributes",
+            "keywords": [
+                "attributes",
+                "jetbrains",
+                "phpstorm"
+            ],
+            "support": {
+                "issues": "https://youtrack.jetbrains.com/newIssue?project=WI",
+                "source": "https://github.com/JetBrains/phpstorm-attributes/tree/1.0"
+            },
+            "time": "2020-11-17T11:09:47+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
