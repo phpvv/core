@@ -1,7 +1,7 @@
 {
     "name": "phpvv/core",
     "description": "VV Core Bundle",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
         "php": "^8.0",
         "phpvv/runtime": "^0.1.0",
         "phpvv/notice": "^0.1.0",
-        "phpvv/exception": "^0.1.0"
+        "phpvv/exception": "^0.1.1"
     },
     "require-dev": {
         "jetbrains/phpstorm-attributes": "^1.0"

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a755d0532dba0e0c99b212367c0b7ca",
+    "content-hash": "a393fcb183543f6afd330dfb24e754fd",
     "packages": [
         {
             "name": "phpvv/exception",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpvv/exception.git",
-                "reference": "8945bc30c94ee3f2191a5c2b4557750e3bae6a52"
+                "reference": "d3b45a3fa918cd914a6aca12f98e2a76e5277d00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpvv/exception/zipball/8945bc30c94ee3f2191a5c2b4557750e3bae6a52",
-                "reference": "8945bc30c94ee3f2191a5c2b4557750e3bae6a52",
+                "url": "https://api.github.com/repos/phpvv/exception/zipball/d3b45a3fa918cd914a6aca12f98e2a76e5277d00",
+                "reference": "d3b45a3fa918cd914a6aca12f98e2a76e5277d00",
                 "shasum": ""
             },
             "require": {
@@ -49,9 +49,9 @@
             "description": "VV Exception",
             "support": {
                 "issues": "https://github.com/phpvv/exception/issues",
-                "source": "https://github.com/phpvv/exception/tree/v0.1.0"
+                "source": "https://github.com/phpvv/exception/tree/v0.1.1"
             },
-            "time": "2021-03-20T11:57:09+00:00"
+            "time": "2021-03-20T12:58:39+00:00"
         },
         {
             "name": "phpvv/notice",
