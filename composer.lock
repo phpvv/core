@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e33af4d4f18830fb811dcf2dfa214c7",
+    "content-hash": "237a5573c007d0ae1ee6ef837e38cf24",
     "packages": [
         {
             "name": "phpvv/exception",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpvv/exception.git",
-                "reference": "d3b45a3fa918cd914a6aca12f98e2a76e5277d00"
+                "reference": "25cf76ff57fd6c93fd9c5949f7231c370b6a2b7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpvv/exception/zipball/d3b45a3fa918cd914a6aca12f98e2a76e5277d00",
-                "reference": "d3b45a3fa918cd914a6aca12f98e2a76e5277d00",
+                "url": "https://api.github.com/repos/phpvv/exception/zipball/25cf76ff57fd6c93fd9c5949f7231c370b6a2b7c",
+                "reference": "25cf76ff57fd6c93fd9c5949f7231c370b6a2b7c",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0",
-                "phpvv/runtime": "^0.1.0"
+                "phpvv/runtime": "0.2.0"
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "^1.0"
@@ -49,27 +49,26 @@
             "description": "VV Exception",
             "support": {
                 "issues": "https://github.com/phpvv/exception/issues",
-                "source": "https://github.com/phpvv/exception/tree/v0.1.1"
+                "source": "https://github.com/phpvv/exception/tree/v0.2.0"
             },
-            "time": "2021-03-20T12:58:39+00:00"
+            "time": "2021-03-28T08:11:01+00:00"
         },
         {
             "name": "phpvv/notice",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpvv/notice.git",
-                "reference": "35996740f2fb841c838db73ad0da6dcbff45919d"
+                "reference": "00562782c3f805bce8f6221b77020f835b86bbe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpvv/notice/zipball/35996740f2fb841c838db73ad0da6dcbff45919d",
-                "reference": "35996740f2fb841c838db73ad0da6dcbff45919d",
+                "url": "https://api.github.com/repos/phpvv/notice/zipball/00562782c3f805bce8f6221b77020f835b86bbe8",
+                "reference": "00562782c3f805bce8f6221b77020f835b86bbe8",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.0",
-                "phpvv/exception": "^0.1.0"
+                "php": "^8.0"
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "^1.0"
@@ -96,22 +95,22 @@
             "description": "VV Notice Service",
             "support": {
                 "issues": "https://github.com/phpvv/notice/issues",
-                "source": "https://github.com/phpvv/notice/tree/v0.1.0"
+                "source": "https://github.com/phpvv/notice/tree/v0.1.1"
             },
-            "time": "2021-03-20T12:11:37+00:00"
+            "time": "2021-03-20T13:57:22+00:00"
         },
         {
             "name": "phpvv/runtime",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpvv/runtime.git",
-                "reference": "2fafd3e99dfcab92bd0ccec14a4c2dd1a6d76f77"
+                "reference": "d407151fd0b19ca09759ab30d8c80304911a5080"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpvv/runtime/zipball/2fafd3e99dfcab92bd0ccec14a4c2dd1a6d76f77",
-                "reference": "2fafd3e99dfcab92bd0ccec14a4c2dd1a6d76f77",
+                "url": "https://api.github.com/repos/phpvv/runtime/zipball/d407151fd0b19ca09759ab30d8c80304911a5080",
+                "reference": "d407151fd0b19ca09759ab30d8c80304911a5080",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +142,9 @@
             "description": "VV Runtime",
             "support": {
                 "issues": "https://github.com/phpvv/runtime/issues",
-                "source": "https://github.com/phpvv/runtime/tree/v0.1.0"
+                "source": "https://github.com/phpvv/runtime/tree/v0.2.0"
             },
-            "time": "2021-03-20T11:10:21+00:00"
+            "time": "2021-03-28T07:57:57+00:00"
         }
     ],
     "packages-dev": [
@@ -193,7 +192,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
